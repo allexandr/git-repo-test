@@ -6,11 +6,12 @@
 using namespace std;
 
 int main() {
-	int a, b, c, d;
-	cin >> a >> b >> c >> d;
-	if ()
-		cout << "YES";
-	else
-		cout << "NO";
-	return 0;	
+	int n, c = 0, i = 1;
+	cin >> n;
+	while (c < n) {
+		c = i * i;
+		if (c > n)  break;
+		cout << c << " ";
+		i++;
+	}		
 }
